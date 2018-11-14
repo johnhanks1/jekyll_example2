@@ -6,7 +6,7 @@ pipeline {
           awsCodeBuild projectName: 'runthrough',
                        credentialsId: 'pipelineExample',
                        credentialsType: 'jenkins',
-                       region: '#{region}',
+                       region: 'us-west-1',
                        sourceControlType: 'jenkins'
 
         }
