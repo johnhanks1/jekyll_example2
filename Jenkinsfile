@@ -7,7 +7,7 @@ pipeline {
                        credentialsId: 'pipelineExample',
                        credentialsType: 'jenkins',
                        region: 'us-west-1',
-                       sourceControlType: 'jenkins'
+                       sourceControlType: 'project'
 
         }
       }
