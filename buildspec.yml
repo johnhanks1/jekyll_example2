@@ -1,0 +1,13 @@
+version: 2.0
+
+phases:
+  install:
+    commands:
+      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
+      - bundle install
+    build:
+      commands:
+        - echo "******** Building Jekyll site ********"
+        - jekyll build
+artifacts:
+ files: _site/*
